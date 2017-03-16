@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import VueRouter from 'vue-router'
-import VueResource from 'vue-resource'
 import App from '../component/App.vue'
 import Login from '../component/Login.vue'
 import UserInfo from '../component/UserInfo.vue'
@@ -9,8 +8,6 @@ import UserInfo from '../component/UserInfo.vue'
 Vue.use(Vuex)
   //路由
 Vue.use(VueRouter)
-  //http请求
-Vue.use(VueResource)
 
 //路由配置
 //如果需要加菜单，就在这里添加路由，并在UserMenu.vue添加入口router-link
