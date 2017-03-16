@@ -1,0 +1,35 @@
+{
+  "name": "vue-example-login.",
+  "version": "0.1.0",
+  "description": "A login example by Vue.js",
+  "author": "doterlin",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --watch --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.0.1",
+    "vuex": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "url-loader": "^0.5.7",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "connect-livereload": "^0.5.4",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^9.7.0",
+    "vue-router": "^2.1.1",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^0.15.0"
+  }
+}
